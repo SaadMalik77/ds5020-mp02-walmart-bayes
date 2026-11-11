@@ -1,0 +1,24 @@
+# --- Data: download from Kaggle, don't commit (see data/README.md) ---
+# Delete these two lines if your instructor wants the CSV inside the repo.
+data/*.csv
+data/*.zip
+
+# --- Credentials: never commit ---
+kaggle.json
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
