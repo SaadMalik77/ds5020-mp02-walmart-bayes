@@ -1,11 +1,9 @@
 To: Maria Lopez, Regional Operations Manager
-
 From: Retail Analytics Team
-
 Subject: Extra staff: which weeks?
 
-1. A store has a strong week (sales at least 10% above that store's own average) in about 12.7% of store-week, or about 1 week in 8.
-2. Thanksgiving is the most meaningful holiday (approximately 82% of Thanksgivings are strong), and November–December is the most meaningful time of the year (41% are strong, approximately 3.3 times the bottom-of-the-barrel baseline rate).
-3. The holiday rule is correct when it says "busy" 27% of the time, and misses 85% of strong weeks as most are not holiday weeks The Nov-Dec rule is better, at 41% precision and 41% recall, but still misses 59% of strong weeks.
-4. Again, our Naive Bayes model fails the holiday rule: on the 2012 weeks we were unaware of, it failed to detect any at the normal 50% threshold, and on a 10% threshold was correct 15% of the time and detected 7.5% of strong weeks, versus 26% and 9% for the holiday rule.
-5. The risk is that Thanksgiving and Christmas are not in 2012 so test has omitted in the strongest weeks and one-year figure can diverge, the numbers including the 45 stores used and date ending in October 2012 should not be interpreted as a prediction.
+1. A store has a strong week (sales at least 10% above its own average) in about 12.6% of store-weeks, or about 1 week in 8.
+2. Thanksgiving is the holiday that matters most (about 82% of Thanksgiving weeks are strong), and November–December is the season that matters most (41% of those weeks are strong, about 3.3 times the overall rate).
+3. The holiday rule is right only 27% of the time when it says "busy" and misses 85% of strong weeks, because most strong weeks are not holiday weeks; the Nov–Dec rule is better, at 41% precision and 41% recall, but still misses 59%.
+4. Our Naive Bayes model does not beat the holiday rule: on 2012 weeks it never saw, it flagged no week at the usual 50% cut-off, and at a 10% cut-off it was right 15% of the time and found 7.5% of strong weeks, against 26% and 9% for the holiday rule.
+5. The main risk is that 2012 has no Thanksgiving or Nov–Dec weeks, so the test is harder than a full year and a full-year result could differ, and with only 45 stores and data ending in October 2012 these numbers should not be treated as a forecast.
