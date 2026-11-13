@@ -2,10 +2,8 @@ To: Maria Lopez, Regional Operations Manager
 From: Retail Analytics Team
 Subject: Extra staff: which weeks?
 
-1. How often stores have a strong week:
-2. Which holiday and season matter most:
-3. The honest truth about the holiday rule (precision, and what it misses):
-4. Whether the model beats the rule:
-5. One risk:
-
-(Replace the five lines above with five plain sentences, each with a number. Store numbers only.)
+1. A store has a strong week (sales at least 10% above its own average) in about 12.6% of store-weeks, or about 1 week in 8.
+2. Thanksgiving is the holiday that matters most (about 82% of Thanksgiving weeks are strong), and November–December is the season that matters most (41% of those weeks are strong, about 3.3 times the overall rate).
+3. The holiday rule is right only 27% of the time when it says "busy" and misses 85% of strong weeks, because most strong weeks are not holiday weeks; the Nov–Dec rule is better, at 41% precision and 41% recall, but still misses 59%.
+4. Our Naive Bayes model does not beat the holiday rule: on 2012 weeks it never saw, it flagged no week at the usual 50% cut-off, and at a 10% cut-off it was right 15% of the time and found 7.5% of strong weeks, against 26% and 9% for the holiday rule.
+5. The main risk is that 2012 has no Thanksgiving or Nov–Dec weeks, so the test is harder than a full year and a full-year result could differ, and with only 45 stores and data ending in October 2012 these numbers should not be treated as a forecast.

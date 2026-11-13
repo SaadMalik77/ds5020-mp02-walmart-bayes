@@ -5,9 +5,9 @@ Bayes' theorem and Naive Bayes on the Walmart weekly sales dataset
 
 | Role | Name | Owns |
 |------|------|------|
-| Data Analyst | | Warm-up (W1–W7), Part P, Part B |
-| ML Engineer | | Part N |
-| Both | | J1 note, final "Restart & Run All" check |
+| Data Analyst | Muhammad Saad Malik | Warm-up (W1–W7), Part P, Part B |
+| ML Engineer | Jagadeesh Aravind Kalyan Shetti | Part N |
+| Both | Muhammad Saad Malik & Jagadeesh Aravind Kalyan Shetti | J1 note, final "Restart & Run All" check |
 
 ## Layout
 
@@ -15,9 +15,9 @@ Bayes' theorem and Naive Bayes on the Walmart weekly sales dataset
 .
 ├── data/
 │   ├── README.md              # how to download Walmart.csv (the CSV itself is git-ignored)
-│   └── Walmart.csv            # ← you put it here
+│   └── Walmart.csv            # this is where the data should be stored
 ├── notebooks/
-│   └── miniproject02_walmart_bayes.ipynb   # the one notebook to submit
+│   └── walmart_bayes.ipynb   
 ├── figures/                   # saved plots (store numbers only, R4)
 ├── submission/
 │   ├── answer_sheet.md        # Section 7, filled in
