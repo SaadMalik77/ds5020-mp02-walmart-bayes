@@ -1,6 +1,6 @@
 # Mini-Project 02 — Answer Sheet
 
-**Team:** Data Analyst: ______ · ML Engineer: ______
+**Team:** Data Analyst: Muhammad Saad Malik · ML Engineer: ______
 
 The last cell of the notebook prints every value below; copy them in once the notebook runs top to bottom.
 
